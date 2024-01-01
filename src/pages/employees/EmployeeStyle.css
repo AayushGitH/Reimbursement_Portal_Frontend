@@ -1,0 +1,22 @@
+.employee-container {
+  height: 88vh;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.employee-container .top {
+  text-align: center;
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+
+h3 {
+  margin-left: 5px;
+}
+
+select {
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 5px;
+}

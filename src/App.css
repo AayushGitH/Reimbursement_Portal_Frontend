@@ -1,0 +1,12 @@
+body {
+    background-color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+* {
+    margin-top: 0;
+}
+
+h4 {
+    padding-top: 7px;
+}

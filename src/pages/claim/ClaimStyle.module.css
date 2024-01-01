@@ -1,0 +1,109 @@
+.claim-container {
+    height: 96vh;
+    width: 97%;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.claimForm {
+    display: flex;
+    padding: 10px;
+    width: 97%;
+    margin-bottom: 20px;
+    flex-direction: row;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 1);
+    /* border: 2px solid black; */
+}
+
+.card-box {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    /* height: 200px; */
+}
+
+.card-row {
+    display: flex;
+    flex-direction: row;
+    border-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.card-row .ele {
+    /* border-top: 20px; */
+    margin-left: 10px;
+}
+
+.claimLeft {
+    width: 100%;
+}
+
+.claimRight {
+    margin-left: 10px;
+    padding: 20px;
+    width: 90%;
+}
+
+img {
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+textarea {
+    width: 97.5%;
+}
+
+input {
+    width: 97%;
+    padding: 5px 5px;
+    border-radius: 3px;
+    border: 1px solid black;
+}
+
+.addclaimbtn:active {
+    border: 2px solid black;
+}
+
+.select {
+    width: 98%;
+    padding: 5px 5px;
+}
+
+.claimTable {
+    height: 100%;
+    border-radius: 5px;
+    /* border-right: 20px; */
+    width: 96%;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 4);
+    /* border: 1px solid black; */
+}
+
+.claimTable thead {
+    padding: 20px;
+    background-color: black;
+    height: 36px;
+    color: aliceblue;
+}
+
+.claimTable tbody {
+    background-color: aliceblue;
+    text-align: center;
+    padding: 10px;
+}
+
+.claimTable tbody td {
+    border-bottom: 1px solid black;
+    height: 10px;
+}
